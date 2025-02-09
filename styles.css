@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Bitter", serif;
+}
+
+p {
+    font-family: "Mukta Malar", serif;
+}
+
+
+.hero {
+    background-color: indigo;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero .container {
+    max-width: 60rem;
+}
+
+.hero h1 {
+    font-size: 3em;
+}
+
+.hero p {
+    line-height: 2;
+    margin: 0 2.5rem 2.5rem 2.5rem;
+}
+
+.hero .line {
+    width: 100%;
+    background-color: rgb(160, 160, 160);
+    height: 2px;
+}
+
+.content {
+    margin: 0 auto;
+    max-width: 60rem;
+    padding: 2rem;
+}
+
+.date {
+    text-align: center;
+}
+
+.date span {
+    color: rgb(233, 151, 0);
+    font-weight: 600;
+}
+
+.content h2 {
+    font-size: 2em;
+}
