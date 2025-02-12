@@ -13,47 +13,48 @@ h4,
 h5,
 h6 {
     font-family: "Bitter", serif;
+    font-weight: 500;
+
 }
 
 h1 {
     font-size: 80px;
     font-weight: 400;
     letter-spacing: -1.5px;
+    margin: 0;
 }
 h2 {
     font-size: 50px;
-    font-weight: 500;
     letter-spacing: -0.5px;
-
+    margin-top: 3rem;
 }
 h3 {
-    font-size: 40px;
-    font-weight: 600;
+    font-size: 38px;
     letter-spacing: 0;
-    text-transform: capitalize;
 }
 h4 {
-    font-size: 32px;
-    font-weight: 600;
-    letter-spacing: -0.3px;
-    text-transform: capitalize;
+    font-size: 30px;
+    letter-spacing: 0.25px;
 }
 h5 {
-    font-size: 25px;
-    font-weight: 600;
-    letter-spacing: -0.2px;
-    text-transform: capitalize;
+    font-size: 24px;
+    letter-spacing: 0.25px;
 }
 h6 {
     font-size: 20px;
-    font-weight: 600;
-    letter-spacing: -0.1px;
+}
+.content h3 {
     text-transform: capitalize;
+}
+code {
+    color: #e95400;
+    font-weight: bold;
+    font-family: monospace;
 }
 
 
 .hero {
-    background-color: rgb(116, 0, 199);
+    background-color: #863ae8;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -62,25 +63,17 @@ h6 {
     text-align: center;
     color: white;
 }
-
 .hero .container {
-    max-width: 70rem;
+    width: 75%;
     max-width: 900px;
 }
-
-
-
 .hero p {
-    line-height: 2;
-    padding: 0 30px;
-    margin-bottom: 2rem;
+    margin: 2rem 0;
 }
-/* 
-.hero .line {
-    width: 100%;
-    background-color: rgb(160, 160, 160);
-    height: 2px;
-} */
+.hero hr {
+    margin: 3rem 0;
+}
+
 
 .content {
     margin: 0 auto;
@@ -109,11 +102,8 @@ h6 {
     font-size: 18px;
 }
 
-code {
-    font-family: "Bitter", serif;
-    color: #e95400;
-    font-size: 14px;
-    font-weight: 700;
+.headline code {
+    font-family: monospace !important;
 }
 
 .quote {
@@ -128,4 +118,29 @@ code {
     display: block;
     margin-left: 20px;
     font-weight: 700;
+}
+
+.footer {
+    margin-top: 2rem;
+    background-color: #863ae8;
+    text-align: center;
+}
+
+.footer ul,
+.footer li {
+    display: inline-block;
+}
+
+.footer li {
+    padding: 10px 1.5rem;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer a:hover {
+    color: rgb(182, 182, 182);
+    text-decoration: underline rgb(182, 182, 182);
 }
